@@ -21,7 +21,7 @@ function logar(){
     for(let i in usuarios){ // laço de repetição (for, for in, for of, for each)
         if(login == usuarios[i].login && senha == usuarios[i].pass){ 
             validaLogin = true
-            location.href = "index.html";
+            location.href = "/html/home.html";
             break
         }
     }
